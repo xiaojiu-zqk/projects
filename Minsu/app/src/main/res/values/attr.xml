@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="txt_left" format="string"/>
+    <attr name="txt_right" format="string"/>
+
+    <declare-styleable name="MyTab">
+        <attr name="txt_left"/>
+        <attr name="txt_right"/>
+    </declare-styleable>
+</resources>
