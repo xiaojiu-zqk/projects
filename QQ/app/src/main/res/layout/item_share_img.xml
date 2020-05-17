@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/item_share"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="@dimen/dp_100"
+        android:layout_height="@dimen/dp_100"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/share_delete"
+        app:layout_constraintTop_toTopOf="@id/item_share"
+        app:layout_constraintRight_toRightOf="@id/item_share"
+        android:layout_width="@dimen/dp_40"
+        android:layout_height="@dimen/dp_30"
+        android:scaleType="centerCrop"
+        android:background="@drawable/delect"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
